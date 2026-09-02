@@ -1,14 +1,36 @@
-# Sprint Challenge: Teknolojik Yemekler - SPA
+# Teknolojik Yemekler - Pizza Ordering SPA
 
-This project was developed as part of the **Workintech Full Stack Web Development** training.  
-It is a **Single Page Application (SPA)** built with React to practice routing, forms, and Cypress testing.
+A Single Page Application (SPA) built with React and Vite for customizing and ordering pizzas online. 
 
 ## Features
-- Homepage, Order Form, and Order Confirmation pages  
-- Prop-lifting for data transfer between pages  
-- Axios integration with mock API (reqres.in)  
-- Form validation and user feedback  
-- Basic Cypress end-to-end tests  
 
-## Purpose
-Created for educational purposes to strengthen React skills and apply SPA concepts in a practical project.
+- **Interactive Ordering:** Seamless navigation across Home, Order Configuration, and Confirmation pages using React Router.
+- **Dynamic Pricing:** Real-time price updates based on size, quantity, and topping selections.
+- **Form Validation:** Client-side validation ensuring required fields and topping limits are met before submission.
+- **API Integration:** Asynchronous order submission with Axios to a mock API endpoint.
+- **E2E Testing:** Automated end-to-end testing with Cypress.
+
+## Tech Stack
+
+- React 18 & Vite
+- React Router DOM
+- Styled Components
+- Axios
+- Cypress
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Run Cypress tests (optional):
+   ```bash
+   npx cypress open
+   ```
